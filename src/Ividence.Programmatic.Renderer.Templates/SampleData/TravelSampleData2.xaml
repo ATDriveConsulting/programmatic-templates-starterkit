@@ -1,0 +1,41 @@
+﻿<ividence:Item 
+    xmlns:ividence="clr-namespace:Ividence.Programmatic.Renderer.Core.Models;assembly=Ividence.Programmatic.Renderer.Core"
+    
+    Description="du 06/12/2016 au 13/12/2016"
+    Id="easyvoyage:1208,2503,AVION;20161206,0910,BVA,20161206,1110,CIA,,FR,9632;;;20161213,0630,CIA,20161213,0845,BVA,,FR,9631;;" 
+    Title="Paris &#9992; Rome"
+    Kind="travel">
+
+    <ividence:Item.Brand>
+        <ividence:ItemBrand LogoUrl="http://s0.c4tw.net/img/brands/24.png" Name="Les maisons du monde"/>
+    </ividence:Item.Brand>
+    <ividence:Item.Image>
+        <ividence:Image Url="https://content.screencast.com/users/Lycan_29/folders/Default/media/808efae6-0966-44af-b6ec-97a4fddf29e2/TravelImage.jpg"/>
+    </ividence:Item.Image>
+    <ividence:Item.Merchant>
+        <ividence:Merchant LogoUrl="https://content.screencast.com/users/Lycan_29/folders/Default/media/433919b9-c612-450f-9162-8ca340019a3b/travelMerchantLogo.jpg" />
+    </ividence:Item.Merchant>
+    <ividence:Item.Price>
+        <ividence:Price Currency="€" Value="44.13"/>
+    </ividence:Item.Price>
+    <ividence:Item.ProviderInfo>
+        <ividence:ItemProvider Name="Easyvoyage" LogoUrl="https://content.screencast.com/users/Lycan_29/folders/Default/media/9bf1ed36-5fa2-4685-bc98-3bf370ad43d6/TravelProviderLogo.jpg"/>
+    </ividence:Item.ProviderInfo>
+</ividence:Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    

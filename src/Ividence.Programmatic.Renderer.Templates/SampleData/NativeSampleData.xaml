@@ -1,0 +1,37 @@
+﻿<ividence:Item 
+    xmlns:ividence="clr-namespace:Ividence.Programmatic.Renderer.Core.Models;assembly=Ividence.Programmatic.Renderer.Core"
+    Description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    Id="nativeTemplateData" 
+    Title="Title: Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    Kind="native">
+    
+    <ividence:Item.Image>
+        <ividence:Image Url="https://content.screencast.com/users/Lycan_29/folders/Default/media/410e79b2-edcf-4bb2-a4bd-5842806bb619/nativeImage1.jpg"/>
+    </ividence:Item.Image>
+    <ividence:Item.Merchant>
+        <ividence:Merchant LogoUrl="http://img.ev.mu/logos/partenairesLittle/1208.gif" />
+    </ividence:Item.Merchant>
+    <ividence:Item.Price>
+        <ividence:Price Currency="€" Value="44.13"/>
+    </ividence:Item.Price>
+    <ividence:Item.ProviderInfo>
+        <ividence:ItemProvider Name="En savoir plus" LogoUrl="https://content.screencast.com/users/Lycan_29/folders/Default/media/40bc1fe2-89d6-4a65-89b2-6b58708d0f55/nativeLogo.jpg"/>
+    </ividence:Item.ProviderInfo>
+</ividence:Item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    

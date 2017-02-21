@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             xmlns:ividence="http://schemas.ividence.com/xaml/presentation" Background="White" d:DataContext="{d:DesignData /SampleData/ItemSampleData.xaml}" Padding="0" d:DesignWidth="750" d:DesignHeight="200" Width="Auto" BorderThickness="1" BorderBrush="#FF979797">
+             xmlns:ividence="http://schemas.ividence.com/xaml/presentation" Background="White" d:DataContext="{d:DesignData /SampleData/TravelSampleData.xaml}" Padding="0" d:DesignWidth="750" d:DesignHeight="200" Width="Auto" BorderThickness="1" BorderBrush="#FF979797">
 
     <Border.Resources>
         <ividence:UriToBitmapSourceConverter x:Key="UriToBitmapSourceConverter"/>
