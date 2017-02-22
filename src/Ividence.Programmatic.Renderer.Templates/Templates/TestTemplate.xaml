@@ -9,7 +9,7 @@
       Background="White"
       d:DesignHeight="250" 
       d:DesignWidth="300"
-      d:DataContext="{d:DesignData ../SampleData/TravelSampleData2.xaml}">
+      d:DataContext="{d:DesignData ../SampleData/ProductSampleData2.xaml}">
 
     <Border.Resources>
         <ividence:UriToBitmapSourceConverter x:Key="UriToBitmapSourceConverter"/>
@@ -48,7 +48,7 @@
             <Image  HorizontalAlignment="left" Width="70" Source="{Binding Merchant.LogoUrl, Converter={StaticResource UriToBitmapSourceConverter}}" Visibility="{Binding Kind,Converter={StaticResource IsVisiblityForKind},ConverterParameter='travel'}" />
             <Image  HorizontalAlignment="left" Source="{Binding Merchant.LogoUrl, Converter={StaticResource UriToBitmapSourceConverter}}" Visibility="{Binding Kind,Converter={StaticResource IsVisiblityForKind},ConverterParameter='product'}" Height="{Binding ActualHeight, ElementName=prc}"/>
             <Border  BorderThickness="1" BorderBrush="#ff4000" Background="#ff4000"  CornerRadius="10" MinWidth="50" HorizontalAlignment="Right" Visibility="{Binding Kind,Converter={StaticResource IsVisiblityForKind},ConverterParameter='product'}">
-                <TextBlock x:Name="prc"   FontWeight="Bold"  
+                <TextBlock x:Name="prc"  FontWeight="Bold"  
                        FontSize="14" Foreground="White" TextAlignment="Center" Padding="5" >
                 <TextBlock.Text>
                     <MultiBinding StringFormat="{}{0}{1} &#x0a; + livraison {2}{1} ">
@@ -62,7 +62,7 @@
                 </Border>
             <Image  HorizontalAlignment="Right" Height="20" Source="{Binding ProviderInfo.LogoUrl,Converter={StaticResource UriToBitmapSourceConverter}}" Visibility="{Binding Kind,Converter={StaticResource IsVisiblityForKind},ConverterParameter='native'}"/>
             <Border BorderThickness="0"  HorizontalAlignment="left" Margin="160,0,0,0" Padding="10" VerticalAlignment="Top"  Visibility="{Binding Kind, Converter={StaticResource IsVisiblityForKind},ConverterParameter='travel'}">
-                <TextBlock  FontFamily="Arial" FontSize="18" FontWeight="Bold"  >
+                <TextBlock  FontFamily="Arial" FontSize="18" FontWeight="Bold"   >
                 <Run Text="{Binding Price.Value}" FontSize="24" Foreground="#084f6a"  />
                 <Run Text="{Binding Price.Currency}" FontSize="24" Foreground="#084f6a"/>
                 <Run Text="    /pers" FontSize="10" Foreground="#084f6a"/>
